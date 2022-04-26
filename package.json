@@ -1,0 +1,35 @@
+{
+  "name": "scaffold-eleventy-site",
+  "version": "1.0.0",
+  "description": "Template for Eleventy site development",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --watch --serve",
+    "dev": "npm start"
+  },
+  "keywords": [
+    "eleventy"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/larryhudson/<REPLACE THIS!>/issues"
+  },
+  "homepage": "https://github.com/larryhudson/<REPLACE THIS!>#readme",
+  "author": {
+    "name": "Larry Hudson",
+    "email": "larryhudson@hey.com",
+    "url": "https://github.com/larryhudson"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larryhudson/<REPLACE THIS!>.git"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
