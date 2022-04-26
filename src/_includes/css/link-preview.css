@@ -1,0 +1,12 @@
+.link-preview-container {
+  position: relative;
+}
+
+.link-preview {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  width: 200px;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
